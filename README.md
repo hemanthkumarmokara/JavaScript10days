@@ -30,3 +30,37 @@ This project demonstrates the use of Node.js's built-in `http` module to build a
 - REST endpoint to check deployment status of services
 - Axios-based client to poll service status (like a DevOps dashboard)
 - Real-world use case: status monitoring for microservices in CI/CD
+
+Day6
+
+# 🛡️ JWT Authentication API using Express, Bcrypt, and JSON Web Tokens
+
+This project is a simple **Node.js + Express.js API** that implements user **registration**, **login**, and access to a **protected route** using:
+
+- `bcrypt`: For securely hashing passwords
+- `jsonwebtoken`: For generating and verifying JWT tokens
+- `dotenv`: To store environment variables (like secret keys)
+
+---
+
+## 🚀 Features
+
+- Register a user and securely hash their password using `bcrypt`
+- Login and generate a signed JWT token
+- Protect routes using JWT authentication middleware
+- Store JWT secret in `.env` for security
+
+---
+
+## 📦 Dependencies
+
+- `express`
+- `bcrypt`
+- `jsonwebtoken`
+- `dotenv`
+
+Install with:
+
+```bash
+npm install express bcrypt jsonwebtoken dotenv
+

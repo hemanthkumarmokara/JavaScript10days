@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const city = process.argv[2];
-const apiKey = 'your actual key';
+const apiKey = '';
 
 if (!city) {
   console.log("⚠️ Please provide a city name.");

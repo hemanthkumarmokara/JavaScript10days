@@ -96,7 +96,7 @@ Install with:
 
 ```bash
 npm install express bcrypt jsonwebtoken dotenv
----
+```
 
 Day7
 

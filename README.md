@@ -95,8 +95,8 @@ This project is a simple **Node.js + Express.js API** that implements user **reg
 Install with:
 
 ```bash
-npm install express bcrypt jsonwebtoken dotenv
-```
+" npm install express bcrypt jsonwebtoken dotenv "
+
 
 Day7
 

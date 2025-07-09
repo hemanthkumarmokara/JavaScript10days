@@ -31,6 +31,39 @@ This project demonstrates the use of Node.js's built-in `http` module to build a
 - Axios-based client to poll service status (like a DevOps dashboard)
 - Real-world use case: status monitoring for microservices in CI/CD
 
+
+Day4
+
+### ✅ Express.js Basics
+- A minimalist web framework for Node.js that simplifies server and route management.
+- Used to handle HTTP requests and define routes for different actions (GET, POST, PUT, DELETE).
+
+### ✅ Routes & Route Handlers
+- **Routes** define how the server responds to different endpoints.
+- **Route Handlers** are the functions that execute when a request is received — they send back responses to the client.
+
+## 🛠 Tools Used
+
+- **Postman**: For testing API routes with JSON bodies and headers.
+- **curl**: Command-line tool for making HTTP requests and debugging.
+
+---
+
+
+Day5
+
+### 🧠 Core Concepts Covered
+- **MongoDB**: A NoSQL database used to store data in flexible, JSON-like documents.
+- **Mongoose**: An Object Data Modeling (ODM) library that provides a schema-based solution for MongoDB and Node.js.
+- **Schemas and Models**: Defined the structure and validation rules for documents stored in MongoDB.
+- **Database Operations**:
+  - `save()`: To create and store documents in MongoDB.
+  - `find()`: To retrieve documents from MongoDB.
+- **Express.js**: A web application framework for Node.js to handle routing and APIs.
+
+--
+
+
 Day6
 
 # 🛡️ JWT Authentication API using Express, Bcrypt, and JSON Web Tokens
@@ -63,4 +96,90 @@ Install with:
 
 ```bash
 npm install express bcrypt jsonwebtoken dotenv
+
+Day7
+
+Welcome to **Day 7** of my #10DaysOfJavaScript journey!  
+Today, I focused on strengthening backend applications using validation techniques and robust error handling.
+
+---
+
+## ✅ Topics Covered
+
+### 1. Input Validation
+
+- **Tools Used**: Joi and express-validator
+- **Purpose**: Ensure that incoming requests contain expected and valid data before processing.
+- **Benefits**:
+  - Prevents bad or malicious input.
+  - Improves user experience with meaningful error messages.
+  - Increases overall API security and stability.
+
+---
+
+### 2. Error-First Callbacks
+
+- **Concept**: Common pattern in Node.js where the first argument of a callback is an error (if any).
+- **Structure**:
+  ```js
+  callback(err, result)
+
+
+Day8
+
+## 🚀 Overview
+On Day 14 of my JavaScript learning journey, I explored how to write unit tests for utility functions and API routes using **Jest**. I also deepened my understanding of the project configuration files `package.json` and `package-lock.json`.
+
+---
+
+## 📦 Understanding `package.json` and `package-lock.json`
+
+- `package.json` defines the project's metadata, scripts, and dependencies.
+- `package-lock.json` records the exact version of every installed package to ensure consistent installs across different environments.
+
+These files are essential for project reproducibility and stability.
+
+---
+
+## 🧰 Utility Functions
+
+Utility functions are small, reusable, and independent functions that perform specific tasks.  
+Examples:
+- Adding two numbers
+- Capitalizing text
+- Formatting a date
+
+### ✅ Why Test Them?
+Because they are used throughout the app and are easy to test due to their pure nature.
+
+---
+
+## 🧪 Unit Testing with Jest
+
+Jest is a powerful JavaScript testing framework used for unit, integration, and snapshot testing.
+
+### Features I Used:
+- **`jest.fn()`**: Used to create mock functions.
+- **Mocking**: Simulates function behavior to isolate code during tests.
+- **Assertions**: Validates outputs using functions like `toBe()`, `toEqual()`, and `toHaveBeenCalled()`.
+
+---
+
+## 🧪 Testing API Routes
+
+I wrote unit tests to verify route handlers, ensuring they return the correct response and status codes.  
+Mocks helped in bypassing real database or network calls.
+
+---
+
+## ✅ Benefits of Unit Testing
+- Catch bugs early
+- Refactor with confidence
+- Ensure consistent behavior
+- Improve code quality and maintainability
+
+---
+
+## 📁 Folder Structure (Sample)
+
 

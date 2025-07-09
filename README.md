@@ -96,13 +96,11 @@ Install with:
 
 ```bash
 npm install express bcrypt jsonwebtoken dotenv
+---
 
 Day7
 
-Welcome to **Day 7** of my #10DaysOfJavaScript journey!  
-Today, I focused on strengthening backend applications using validation techniques and robust error handling.
 
----
 
 ## ✅ Topics Covered
 
@@ -127,10 +125,7 @@ Today, I focused on strengthening backend applications using validation techniqu
 
 Day8
 
-## 🚀 Overview
-On Day 14 of my JavaScript learning journey, I explored how to write unit tests for utility functions and API routes using **Jest**. I also deepened my understanding of the project configuration files `package.json` and `package-lock.json`.
 
----
 
 ## 📦 Understanding `package.json` and `package-lock.json`
 
@@ -163,23 +158,5 @@ Jest is a powerful JavaScript testing framework used for unit, integration, and 
 - **Mocking**: Simulates function behavior to isolate code during tests.
 - **Assertions**: Validates outputs using functions like `toBe()`, `toEqual()`, and `toHaveBeenCalled()`.
 
----
-
-## 🧪 Testing API Routes
-
-I wrote unit tests to verify route handlers, ensuring they return the correct response and status codes.  
-Mocks helped in bypassing real database or network calls.
-
----
-
-## ✅ Benefits of Unit Testing
-- Catch bugs early
-- Refactor with confidence
-- Ensure consistent behavior
-- Improve code quality and maintainability
-
----
-
-## 📁 Folder Structure (Sample)
 
 

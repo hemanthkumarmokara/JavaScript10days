@@ -155,4 +155,69 @@ Jest is a powerful JavaScript testing framework used for unit, integration, and 
 - **Assertions**: Validates outputs using functions like `toBe()`, `toEqual()`, and `toHaveBeenCalled()`.
 
 
+Day9
+
+
+## ✅ Concepts Covered
+
+### 1. 🔐 Closures
+Closures allow a function to remember and access variables from its lexical scope even after the outer function has finished execution.
+
+> Use Case: Helps in data privacy, function factories, and managing state in async operations.
+
+---
+
+### 2. 🍛 Currying
+Currying transforms a function with multiple arguments into a series of nested functions that each take one argument.
+
+> Use Case: Enables function reuse and partial function application — powerful in creating flexible DevOps utilities.
+
+---
+
+### 3. 🚀 Hoisting
+Hoisting is JavaScript's default behavior of moving declarations to the top of their scope.
+
+- `var` is hoisted and initialized with `undefined`.
+- `let` and `const` are hoisted but remain in the **Temporal Dead Zone (TDZ)** until declared, throwing `ReferenceError` if accessed early.
+
+> Use Case: Understanding hoisting helps avoid undefined bugs and runtime errors in large-scale modular scripts.
+
+---
+
+
+Day10
+
+## 📚 Concepts Covered
+
+### ✅ EventEmitters
+- Built-in `events` module in Node.js
+- Custom event creation and handling
+- Example: Triggering and responding to a `log` event
+
+### ✅ Streams
+- `fs.createReadStream` and `fs.createWriteStream`
+- Efficient reading/writing of large files in chunks
+- Piping data from input to output stream
+
+### ✅ Buffers
+- Temporary storage for binary data
+- Used internally by streams for chunked data handling
+
+---
+
+## 📂 Files Included
+
+- `largefile.txt` – Sample large file to simulate stream processing
+- `copy.txt` – Output file generated using write stream
+- `stream-copy.js` – Script demonstrating stream read/write operations
+- `event-logger.js` *(optional)* – Script to show custom EventEmitter usage
+
+---
+
+## 🧪 How to Run
+
+1. Clone this repo or download files
+2. Run the stream example:
+   ```bash
+   node stream-copy.js
 
